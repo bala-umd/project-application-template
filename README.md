@@ -231,13 +231,16 @@ project-root/
 
 ## Team Contributions
 
-Each member contributed to at least two project phases. Areas of contribution:
+> **Proposed responsibility distribution (pending team confirmation).** The
+> table below reflects each member's planned area of ownership, not a verified
+> record of completed individual work. Confirm and adjust it to match the
+> team's actual contributions before final submission.
 
-| Member | Primary areas |
+| Member | Proposed responsibilities |
 | --- | --- |
-| Bala Sreerangam | Repository setup, Feature 1 (Issue Resolution Analysis), README |
-| Asa Constantian | Feature 2 (Contributor Activity Analysis), component and sequence diagrams |
-| Jaden James | Feature 3 (Discussion Trends Analysis), test suite and coverage |
+| Bala Sreerangam | Issue Resolution Analysis (Feature 1), application integration, README documentation |
+| Asa Constantian | Contributor Activity Analysis (Feature 2), component diagram, feature validation |
+| Jaden James | Discussion Trends Analysis (Feature 3), sequence diagram, automated testing |
 
-> Note: update this table to match the team's final division of work before
-> submission.
+Each member's proposed responsibilities span at least two project phases
+(design, implementation, testing, or documentation).
