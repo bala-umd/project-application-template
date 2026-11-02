@@ -1,0 +1,12 @@
+# Coverage configuration: measure the application modules, not the tests.
+[run]
+omit =
+    tests/*
+    */site-packages/*
+
+[report]
+show_missing = True
+# The example analysis ships with the template and is exercised via feature 0.
+exclude_lines =
+    if __name__ == .__main__.:
+    pragma: no cover
