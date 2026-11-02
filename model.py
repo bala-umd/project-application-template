@@ -63,7 +63,13 @@ class Issue:
         self.url = jobj.get('url')
         self.creator = jobj.get('creator')
         self.labels = jobj.get('labels',[])
-        self.state = State[jobj.get('state')]
+        # Parse the state defensively: issues with a missing or unexpected
+        # state value should load as state=None rather than crashing the loader.
+        state_value = jobj.get('state')
+        try:
+            self.state = State[state_value] if state_value is not None else None
+        except KeyError:
+            self.state = None
         self.assignees = jobj.get('assignees',[])
         self.title = jobj.get('title')
         self.text = jobj.get('text')

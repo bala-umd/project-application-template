@@ -1,0 +1,4 @@
+# Development/testing dependencies (installed in addition to requirements.txt)
+-r requirements.txt
+pytest
+pytest-cov
